@@ -1,0 +1,100 @@
+.About{
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 2px 15px;
+}
+.title{
+    font-size: 3rem;
+    color: #ffb510;
+}
+.Skill{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.Contant-about{
+    display: flex;
+    width:50%;
+    margin-left: 25%;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.Contant-skill{
+    display: flex;
+    width:100%;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.Contant-about p{
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgba(245, 245, 245, 0.781);
+}
+.skill-icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:2.4rem;
+    color:yellow;
+    margin: 15px;
+    box-shadow: 1px 2px 5px  rgba(221, 187, 187, 0.651);
+}
+.Skill-box{
+    width: 100px;
+    height:100px;
+    margin: 6px;
+    border: 1px solid rgba(219, 255, 244, 0.719);
+    cursor: pointer;
+}
+.Pdf-file{
+    display: flex;
+    font-size: medium;
+    margin: 26px 15px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    padding: 5px 25px;
+}
+.Pdf-file:hover{
+    color:rgb(250, 146, 10);
+    border: 1px solid rgb(250, 146, 10) ;
+}
+.Icons-name{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+@media (max-width:500px) {
+    .title{
+        font-size: 2rem;
+    } 
+    .Contant-about{
+        width:80%;
+        margin: 25px;
+        justify-content: center;
+        text-align: left;
+    }   
+    .Contant-about p{
+        font-style: italic;
+        text-align: left;
+        font-size: 1.2rem;
+        color: rgba(245, 245, 245, 0.781);
+    }
+    .Pdf-file{
+        margin: 15px 5px;
+        font-size: 1.2rem;
+    }
+    .Icons-name{
+        text-align: center;
+    }
+}

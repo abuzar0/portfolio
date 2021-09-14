@@ -1,0 +1,140 @@
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.title h2{
+    font-size: 2.5rem;
+    color: rgb(250, 152, 6);
+    border-bottom:2px solid rgb(202, 197, 169);
+}
+.spin{
+    color: rgb(250, 151, 6);
+    font-size: 2rem;
+}
+.contact-detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px,30px,30px,20px;
+    padding: 2px;
+}
+.Icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width:220px;
+    padding:10px;
+    cursor: pointer;
+    margin: 12px;
+    background-color:rgb(71, 65, 65);
+}
+.Icons-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contect-text{
+    padding: 10px;
+    margin: 5px;
+    color: rgba(236, 184, 15, 0.603);
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.Icons:hover .contect-text{
+    color: yellow;
+   background-color: #000;
+
+}
+
+/* Leave message form  */
+.message-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 50px;
+
+}
+.Heading h2{
+    font-size: 2rem;
+    color:  #f9a300;
+    margin-bottom: -20px;
+    border-bottom:2px solid rgb(202, 197, 169);
+}
+.message-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.input-text{
+    display: flex;
+    flex-direction: column;
+    margin-left:27vw;
+    width: 50%;
+}
+.input-label{
+    text-align: left;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 4px;
+}
+.input{
+    height: 40px;
+    background: rgba(138, 143, 126, 0.1);
+    /* hsla(0,0%,100%,.1) */
+    color: #fff;
+    padding: 3px 7px;
+    border: none;
+    margin: 5px 0
+}
+.button-container{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 32vw;
+    padding: 5px;
+    margin-top: 10px
+}
+.button{
+    color:  #f9a300;
+    width: 50%;
+    height:50px;
+    background-color: rgb(133 132 132 / 26%);;
+    border: 2px;
+    cursor: pointer;
+    font-family:"Noto+Sans+JP";
+    font-size: 20px;
+    border-radius: 4px;
+}
+@media (max-width:550px) {
+    .title h2{
+        font-size: 1.4rem;
+    }
+    .Heading h2{
+        font-size: 1.3rem;
+        color: rgba(219, 171, 40, 0.897);
+    }
+    .input-label{
+        text-align: right;
+    }
+}

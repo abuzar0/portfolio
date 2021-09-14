@@ -1,0 +1,105 @@
+.Home{
+    position: absolute;
+    width: 100vw;
+}
+.loader{
+    display:block;
+    text-align: center;
+    justify-content: center;
+    margin-top:40vh;
+  }
+  .DisplayNone{
+    display: none;
+    opacity: 0;
+  }
+
+.bouncingDot {
+    width: 0px;
+    height: 0px;
+    font-size: 3rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgb(255, 175, 1);
+    margin-left:2px;
+    margin-top: -6px;
+    position:absolute;
+    top:-58px;
+    right:-10px;
+}
+.Dot{
+    position: relative;
+}
+/*  */
+.content-basic{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: center;
+}
+.content-detail{
+    margin-top: 30vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.name{
+    font-size: 2.2rem;
+    /* font-family: "Belleza", sans-serif; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#f9a300;
+    letter-spacing:2px;
+}
+  .name:hover{
+    color: rgb(214, 243, 243);
+    transition: 0.25s ease-in-out;
+  }
+  .Content-Name{
+    letter-spacing: 2px;
+    font-size: 2rem;
+    background-color: transparent;
+    color: antiquewhite;
+  }
+  .Content-dev{
+    letter-spacing: 2px;
+    background-color: transparent;
+    margin: 15px;
+    font-size: 1rem;
+    color: rgb(226, 226, 202);
+  }
+  .messege{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 25px;
+    margin-top: -10px;
+  }
+  .block-message{
+    text-align: right;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+  }
+  .text{
+    display:flex;
+  }
+  .text h6{
+    font-size: 1.2rem;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 100;
+  }
+  .Day-name{
+    color: rgb(255, 196, 0);
+  }
+  @media (max-width:550px) {
+    .bouncingDot {
+      top:-41px;
+      right:-8px;
+      font-size: 2rem;
+    } 
+    .name{
+      font-size: 1.8rem;
+    }  
+    .Content-Name{
+      font-size: 1.5rem;
+    }
+  }
